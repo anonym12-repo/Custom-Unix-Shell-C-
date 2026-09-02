@@ -4,7 +4,6 @@
 
 [![C](https://img.shields.io/badge/C-Systems%20Programming-A8B9CC.svg)](#tech-stack)
 [![POSIX](https://img.shields.io/badge/POSIX-Unix%20APIs-555555.svg)](#tech-stack)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
 ## 📌 Overview
 
