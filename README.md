@@ -108,7 +108,7 @@ The shell is designed around a **modular architecture**, separating command pars
 ## 📁 Repository Structure
 
 ```text
-├── src/
+├── code/
 │   ├── main.c          # Shell entry point and main command loop
 │   ├── shell.h         # Shared constants and core command structures
 │   ├── parser.c        # Command-line parsing and command decomposition
@@ -123,18 +123,8 @@ The shell is designed around a **modular architecture**, separating command pars
 │   ├── terminal.h      # Terminal interface
 │   ├── history.c       # Command history storage and retrieval
 │   └── history.h       # History interface
-├── tests/
-│   ├── basic/          # Basic commands and built-ins
-│   ├── parsing/        # Tokenisation, quotes and escaping
-│   ├── wildcards/      # Wildcard expansion
-│   ├── redirection/    # Input/output/error redirection
-│   ├── pipelines/      # Single and multi-stage pipelines
-│   ├── history/        # History and arrow-key tests
-│   ├── signals/        # Signal and zombie-process tests
-│   └── complex/        # Combined feature tests
 ├── Makefile
-├── README.md
-└── .gitignore
+└── doc
 ```
 
 ## 🚀 Running the Project
@@ -375,10 +365,6 @@ The testing strategy specifically checks both **individual features and interact
 * **Batch/script mode:** allow commands to be supplied through a file or command-line option rather than requiring an interactive terminal.
 * **Additional shell functionality:** extend the parser and execution model with more advanced Unix shell features while preserving the modular architecture.
 
-## 📄 License
 
-This project is available under the MIT License.
-
----
 
 *An implementation-focused exploration of Unix process management, command parsing, inter-process communication, file descriptors, signals, and interactive terminal programming in C.*
