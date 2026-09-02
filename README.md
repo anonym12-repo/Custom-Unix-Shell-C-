@@ -107,6 +107,16 @@ Compiles cleanly with `-Wall -Wextra -std=c11`.
 
 ## Running
 
+A prebuilt Linux x86_64 binary is available on the [Releases](../../releases)
+page if you'd rather not build from source — download it, then:
+
+```bash
+chmod +x shell-linux-x86_64
+./shell-linux-x86_64
+```
+
+Otherwise, build from source:
+
 ```bash
 ./shell
 ```
